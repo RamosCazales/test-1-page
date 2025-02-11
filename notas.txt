@@ -1,0 +1,11 @@
+lista de comandos:
+1 nano: sirve para crear archivos con la posibilidad de escribir dentro del archivo y luego guardarlo.
+2 touch: sirve para crear archivos pero de forma inmediata sin tener que alterar el contenido.
+3 mkdir: sirve para crear directorios osea folders.
+4 cd: nos permite movernos entre los folders.
+
+Lista de comandos de git:
+1 git init: sirve para crear proyecto o repositorio de git.
+2 git add <filename>: esto sirve para agregar un solo archivo dependiendo del nombre.
+3 git add .: sirve para seleccionar todos los archivos sin la necesidad del nombre con cambios.
+4 git commit -m "Commit message": crea un commit con este mensaje.
