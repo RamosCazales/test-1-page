@@ -9,3 +9,17 @@ Lista de comandos de git:
 2 git add <filename>: esto sirve para agregar un solo archivo dependiendo del nombre.
 3 git add .: sirve para seleccionar todos los archivos sin la necesidad del nombre con cambios.
 4 git commit -m "Commit message": crea un commit con este mensaje.
+5 git remote add origin (nombre de la url): crea una conexion con el proyecto de github.Nota: esto se hace una sola vez por proyecto nuevo. 
+6 git branch -M main (opcional): cambiar el nombre de la branch principal de MASTER a cualquier otro
+7 git push -u origin (nombre de la branch): git push es para subir tus cambios locales a el repositorio de github en la branch que se escribio.
+
+
+URL github 
+URL github que pertenece a RamozCazales (un usuario de github)
+Los usuarios en github puden tener Repositorios (repositorio remoto)
+necesita un ORIGEN.
+los usuarios de github, cuando crean un repositorio, estan creando un PUNTO DE ORIGEN hacia un proyecto en la pagina de Github. 
+Osea, https://github.com/RamosCazales/test-1-page.git es UN ORIGEN en el Github del usuario RamosCazales
+
+Por ende, cuando veamos branch 'master' set up to track 'origin/master'. se pude traducir como: 
+La branch LOCAL (de esta compu) que se llama "master" esta al corriente con el ORIGEN (El repositorio  https://github.com/RamosCazales/test-1-page.git de RamosCazales) en la branch "master" de Github
