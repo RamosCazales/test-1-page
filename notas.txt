@@ -29,4 +29,5 @@ Osea, https://github.com/RamosCazales/test-1-page.git es UN ORIGEN en el Github 
 Por ende, cuando veamos branch 'master' set up to track 'origin/master'. se pude traducir como: 
 La branch LOCAL (de esta compu) que se llama "master" esta al corriente con el ORIGEN (El repositorio  https://github.com/RamosCazales/test-1-page.git de RamosCazales) en la branch "master" de Github
 
-Siempre poner el pull de master antes de crear una nueva branch
+Siempre poner el pull de master antes de crear una nueva branch.
+Tras crear una nueva branch, siempre el primer push "git push" sera "git push --set-upstream origin (nombre de la branch)".
