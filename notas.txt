@@ -12,10 +12,10 @@ Lista de comandos de git:
 5 git remote add origin (nombre de la url): crea una conexion con el proyecto de github.Nota: esto se hace una sola vez por proyecto nuevo. 
 6 git branch -M main (opcional): cambiar el nombre de la branch principal de MASTER a cualquier otro
 7 git push -u origin (nombre de la branch): git push es para subir tus cambios locales a el repositorio de github en la branch que se escribio.
-8 git pull (nombre de la branch)
-9 git checkout (nombre de la branch)
-10 git -b checkout (nombre de la branch)
-11 git branch -D (nombre de la branch)
+8 git pull (nombre de la branch): Se encarga de bajar los cambios de la branch que se indique.
+9 git checkout (nombre de la branch): Es para cambiar a la branch con el nombre que hayamos indicado, siempre y cuando esta misma exista.
+10 git checkout -b (nombre de la branch): Crea una branch con el nombre que asignamos.
+11 git branch -D (nombre de la branch): Se elimina la branch con todos y sus cambios que se hayan indicado.
 12 git merge (nombre de la branch)
 
 
@@ -28,3 +28,5 @@ Osea, https://github.com/RamosCazales/test-1-page.git es UN ORIGEN en el Github 
 
 Por ende, cuando veamos branch 'master' set up to track 'origin/master'. se pude traducir como: 
 La branch LOCAL (de esta compu) que se llama "master" esta al corriente con el ORIGEN (El repositorio  https://github.com/RamosCazales/test-1-page.git de RamosCazales) en la branch "master" de Github
+
+Siempre poner el pull de master antes de crear una nueva branch
