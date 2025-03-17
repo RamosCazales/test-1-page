@@ -12,6 +12,11 @@ Lista de comandos de git:
 5 git remote add origin (nombre de la url): crea una conexion con el proyecto de github.Nota: esto se hace una sola vez por proyecto nuevo. 
 6 git branch -M main (opcional): cambiar el nombre de la branch principal de MASTER a cualquier otro
 7 git push -u origin (nombre de la branch): git push es para subir tus cambios locales a el repositorio de github en la branch que se escribio.
+8 git pull (nombre de la branch)
+9 git checkout (nombre de la branch)
+10 git -b checkout (nombre de la branch)
+11 git branch -D (nombre de la branch)
+12 git merge (nombre de la branch)
 
 
 URL github 
